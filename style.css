@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background: url(./img/header-cover.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+header:after {
+    content: '';
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-image: url(./img/wave-bottom.svg);
+        height: 275px;
+
+}
+
+.header-content {
+    z-index: 1;
+    position: relative;
+
+}
+
+.header-content h1 {
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+
+}
+
+.header-content p {
+    font-size: 20px;
+    margin: 20px 0 25px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.theme-btn {
+
+    border-radius: 50px;
+    background: white;
+    padding: 15px 30px;
+    border: 2px solid white;
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 13px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 12px;
+    text-decoration: none;
+    transition: all 0.5s ease-in;
+}
+
+.theme-btn:hover {
+    text-decoration: none;
+    background-color: white;
+    color: #CE193A;
+}
